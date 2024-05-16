@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+body {
+height: 100%; 
+}
+
+
+.topo {
+    width: 100%;
+    top: 0;
+
+}
+
+header {
+    background: rgb(25,16,16);
+background: linear-gradient(0deg, rgba(25,16,16,1) 10%, rgba(48,39,36,1) 60%, rgba(48,39,36,1) 64%);
+    height: 19em;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+header .foto img {
+    height: 19rem;
+    margin-right: 10em;
+    border-radius: 2em 2em;
+    
+    
+}
+
+header h1{
+    font-family: "Abril Fatface", serif;
+    font-size: 100px;
+    color: rgb(177, 170, 170);
+    text-align: center;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+nav {
+    background: rgb(41,5,0);
+background: linear-gradient(0deg, rgba(41,5,0,1) 5%, rgba(25,16,16,1) 9%, rgba(48,39,36,1) 64%);
+    display: flex;
+    justify-content: center; 
+}
+
+nav ul {
+    list-style: none;
+
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(231, 227, 227);
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+nav ul li a:hover {
+    background: linear-gradient(0deg, rgba(25,16,16,1) 10%, rgba(48,39,36,1) 60%, rgba(48,39,36,1) 64%);
+}
+
+
+#sobre {
+    height: 100vh;
+    display: flex;
+    background-color: #473937;
+    align-items: center;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding: 20px;
+    
+    
+  }
+
+#historia {
+    height: 100vh;
+    display: flex;
+    background-color: #473937;
+    align-items: center;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding: 20px;
+}
+
+#musicas {
+    height: 70em;
+    display: flex;
+    background-color: #473937;
+    align-items: center;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding: 20px;
+    flex-direction: column;
+    
+}
+
+.texto h2  {
+    font-size: 5em;
+    font-family: "Abril Fatface", serif;
+    color: rgb(167, 166, 166);
+    
+}
+
+.texto p {
+    font-size: 22px;
+    color: rgb(171, 170, 170);
+    font-family: "Roboto", sans-serif;
+    
+    
+}
+
+.fotobrown {
+    width: 40%;
+    height: 60%;
+    margin-right: 2em;
+
+}
+
+
+
+.fotobrown .texto {
+    width: 65%;
+}
+
+#musicas h2 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 150px;
+    font-size: 70px;
+    font-family: "Abril Fatface", serif;
+    color: rgb(167, 166, 166);
+    padding-top: 70px;
+
+}
+#cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: #322c2b;
+    width: 400px;
+    height: 360px;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: 0.5s;
+    
+}
+
+
+
+
+#cards .card iframe {
+  border-radius: 40px;
+}
+
+.card:hover {
+    scale: 1.10;
+    transition: 0.6s;
+}
+
+.rodape {
+    height: 20vh;
+    display: flex;
+    background-color: #473937;
+    align-items: center;
+}
+
+.rodape h2 {
+  font-size: 25px;
+    color: rgb(167, 166, 166);
+    margin-left: 4em;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 2em;
+}
+
+ 
+
